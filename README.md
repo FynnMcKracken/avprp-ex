@@ -1,4 +1,3 @@
 # README
 
-## Header2
-* Hello world.
+HAW AVPRG Course repo
