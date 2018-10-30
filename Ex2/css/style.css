@@ -1,0 +1,83 @@
+.midi-input:hover {
+    transition: all 0.2s;
+    border-color: rgba(109, 179, 253, 0.81);
+    box-shadow: 0 0 7px 0.2rem rgba(0, 123, 255, 0.17);
+}
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    min-height: 25px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: rgba(117, 253, 0, 0.81);
+    box-shadow: 0 0 7px 0.2rem rgba(222, 255, 52, 0.17);
+}
+
+.bd-example {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -15px 0;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.d-table{
+    display:table;
+    table-layout:fixed;
+    height:100%;
+    width:100%;
+}
+.d-row{
+    display : table-row;
+}
+.d-cell{
+    display : table-cell;
+}
+.first{
+    width : 50%;
+}
+.second{
+    width : 50%;
+}
+
+html {
+    height: 100%;
+}
+
+.kick {
+   background: #0c5460;
+}
+
+.snare {
+    background: #005cbf;
+}
+
+.clap {
+    background: #0469de;
+}
+
+.hihat {
+    background: #3e9bf4;
+}
+
+.kick:hover, .snare:hover, .clap:hover, .hihat:hover {
+    transition: all 0.2s;
+    opacity:0.9;
+}
+
+.kick:active, .snare:active, .clap:active, .hihat:active {
+    opacity:0.5;
+}
